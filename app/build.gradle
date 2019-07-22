@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
-apply from: '../aspectj.gradle'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'android-aspectjx'
 
 android {
     compileSdkVersion 28
