@@ -16,6 +16,7 @@ class DatabindingActivity : AppCompatActivity(), View.OnClickListener {
         MyApp.init(this)
 //        val button = findViewById<Button>(R.id.button)
         button.setOnClickListener(this)
+        viewDataBinding.root.setOnClickListener {  }
     }
 
     @SingleClick
